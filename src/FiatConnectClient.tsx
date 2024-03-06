@@ -223,6 +223,8 @@ export async function login(
 
 export const providerIdToBaseUrl: Record<ProviderIds, string> = {
   [ProviderIds.Bitmama]: 'https://cico-staging.bitmama.io',
+  [ProviderIds.KotaniPay]: 'https://fiatconnect-sandbox.kotanipay.com',
+  [ProviderIds.OneRamp]: 'https://sandbox.oneramp.io',
   [ProviderIds.TestProvider]:
     'https://mock-fc-provider-dot-celo-mobile-alfajores.appspot.com',
 }

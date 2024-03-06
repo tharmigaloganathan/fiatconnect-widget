@@ -27,16 +27,22 @@ export const chainIdToFiatConnectNetwork: Record<number, Network> =
 
 export const providerIdToProviderName: Record<ProviderIds, string> = {
   [ProviderIds.Bitmama]: 'Bitmama',
+  [ProviderIds.KotaniPay]: 'Kotani Pay',
+  [ProviderIds.OneRamp]: 'One Ramp',
   [ProviderIds.TestProvider]: 'Test Provider',
 }
 
 export const providerIdToPrivacyPolicyURL: Record<ProviderIds, string> = {
   [ProviderIds.Bitmama]: 'https://bitmama.io/privacy',
+  [ProviderIds.KotaniPay]: '', // TODO(M3): add this!
+  [ProviderIds.OneRamp]: '', // TODO(M3): add this!
   [ProviderIds.TestProvider]: 'https://valoraapp.com/privacy',
 }
 
 export const providerIdToSupportEmail: Record<ProviderIds, string> = {
   [ProviderIds.Bitmama]: 'support@bitmama.io',
+  [ProviderIds.KotaniPay]: 'support@kotanipay.io', // TODO: Replace w/ accurate email
+  [ProviderIds.OneRamp]: 'support@oneramp.io', // TODO: Replace w/ accurate email
   [ProviderIds.TestProvider]: 'support@valoraapp.com',
 }
 

@@ -2,6 +2,8 @@ import { KycSchema, KycSchemas } from '@fiatconnect/fiatconnect-types'
 
 export enum ProviderIds {
   Bitmama = 'bitmama',
+  KotaniPay = 'kotani-pay',
+  OneRamp = 'one-ramp',
   TestProvider = 'test-provider',
 }
 
